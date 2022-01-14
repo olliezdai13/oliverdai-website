@@ -1,0 +1,94 @@
+.App-card {
+    background-color:white;
+    width: 604px;
+    height: 354px;
+    margin: 0 auto;
+    transition: 0.3s;
+  }
+  
+  .App-card:hover {
+    margin-top: -10px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+    border-bottom-right-radius: 32px;
+  }
+  
+  .App-card-contents {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid lavender;
+    padding: 25px;
+    transition: 0.3s;
+  }
+  
+  .App-card-contents:hover {
+    border-bottom-right-radius: 32px;
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 94%, rgba(0, 0, 0, 0.1) 100%);
+  }
+  
+  .App-card-left {
+    width: 250px;
+    height: 300px;
+    /* background-color: aliceblue; */
+  }
+  
+  .App-card-right {
+    width: 250px;
+    height: 300px;
+    /* background-color: aliceblue; */
+  }
+  
+  .App-card-middle {
+    width: 50px;
+    height: 300px;
+  }
+  
+  .App-card-image {
+    margin: 35px 0 25px 0;
+    max-width: 100%;
+  }
+  
+  .App-vertical-line {
+    border-left: 2px solid lavender;
+    height: 300px;
+    width: 0px;
+    margin-left: 24px;
+  }
+  
+  .App-details-container {
+    width: 100%;
+    padding: 130px 0 0 15px;
+  }
+  
+  .App-details-name {
+    color:goldenrod;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: 8px;
+  }
+  
+  .App-details-item {
+    color:maroon;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    padding-bottom: 3px;
+  }
+  
+  .App-details-link {
+    color:inherit;
+    text-decoration: none;
+  }
+  
+  a.App-details-link:hover {
+    color:goldenrod;
+    text-decoration: underline;
+  }
+  
+  .App-flip-card-hitbox {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 230px;
+    top: 55px;
+  }
