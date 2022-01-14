@@ -23,6 +23,9 @@ function App() {
               <div className="App-details-item">
                 <a className="App-details-link" href="https://www.linkedin.com/in/olliezdai/" target="_blank" rel="noreferrer">linkedin.com/in/olliezdai/</a>
               </div>
+              <div>
+                <span>hewwo I am Owolibber and I am vewy vewy cwinge powoggers (づ ◕‿◕ )づ</span>
+              </div>
             </div>
           </div>
         </div>
