@@ -4,83 +4,93 @@
     height: 354px;
     margin: 0 auto;
     transition: 0.3s;
-  }
-  
-  .Card:hover {
+    color:maroon;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: medium;
+}
+
+.Card:hover {
     margin-top: -10px;
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
-    border-bottom-right-radius: 32px;
-  }
-  
-  .Card-contents {
+    /* border-bottom-right-radius: 32px; */
+}
+
+.Card-contents {
     display: flex;
     flex-direction: row;
     border: 2px solid lavender;
     padding: 25px;
     transition: 0.3s;
-  }
-  
-  .Card-contents:hover {
-    border-bottom-right-radius: 32px;
-    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 94%, rgba(0, 0, 0, 0.1) 100%);
-  }
-  
-  .Card-left {
+}
+
+.Card-contents:hover {
+    /* border-bottom-right-radius: 32px;
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 94%, rgba(0, 0, 0, 0.1) 100%); */
+}
+
+.Card-left {
     width: 250px;
     height: 300px;
     /* background-color: aliceblue; */
-  }
-  
-  .Card-right {
+}
+
+.Card-right {
     width: 250px;
     height: 300px;
     /* background-color: aliceblue; */
-  }
-  
-  .Card-middle {
+}
+
+.Card-middle {
     width: 50px;
     height: 300px;
-  }
-  
-  .Card-image {
+}
+
+.Card-image {
     margin: 35px 0 25px 0;
     max-width: 100%;
-  }
-  
-  .Card-vertical-line {
+}
+
+.Card-vertical-line {
     border-left: 2px solid lavender;
     height: 300px;
     width: 0px;
     margin-left: 24px;
-  }
-  
-  .Card-details-container {
+}
+
+.Card-details-container {
     width: 100%;
     padding: 130px 0 0 15px;
-  }
-  
-  .Card-details-name {
+}
+
+.Card-details-name {
     color:goldenrod;
     font-family:'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 40px;
     padding-bottom: 8px;
-  }
-  
-  .Card-details-item {
-    color:maroon;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 200;
-    font-size: medium;
+}
+
+.Card-details-item {
     padding-bottom: 3px;
-  }
-  
-  .Card-details-link {
+}
+
+.Card-details-link {
     color:inherit;
     text-decoration: none;
-  }
-  
-  a.Card-details-link:hover {
+}
+
+a.Card-details-link:hover {
     color:goldenrod;
     text-decoration: underline;
-  }
+}
+
+
+.Card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
